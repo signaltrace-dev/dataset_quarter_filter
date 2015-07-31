@@ -1,0 +1,57 @@
+#views-exposed-form-quarterly-report-page #edit-field-date-range-value-wrapper,
+#views-exposed-form-quarterly-report-page #edit-field-date-published-value-wrapper,
+#views-exposed-form-quarterly-report-page #edit-timestamp-wrapper,
+#views-exposed-form-quarterly-report-page #edit-timestamp-1-wrapper,
+#views-exposed-form-quarterly-report-page #edit-timestamp-2-wrapper,
+#views-exposed-form-quarterly-report-page #edit-timestamp-3-wrapper,
+#views-exposed-form-quarterly-report-page #edit-field-date-published-value-1-wrapper,
+#views-exposed-form-quarterly-report-page #edit-field-date-published-value-2-wrapper,
+#views-exposed-form-quarterly-report-default #edit-field-date-range-value-wrapper,
+#views-exposed-form-quarterly-report-default #edit-field-date-published-value-wrapper,
+#views-exposed-form-quarterly-report-default #edit-timestamp-wrapper,
+#views-exposed-form-quarterly-report-default #edit-timestamp-1-wrapper,
+#views-exposed-form-quarterly-report-default #edit-timestamp-2-wrapper,
+#views-exposed-form-quarterly-report-default #edit-timestamp-3-wrapper,
+#views-exposed-form-quarterly-report-default #edit-field-date-published-value-1-wrapper,
+#views-exposed-form-quarterly-report-default #edit-field-date-published-value-2-wrapper
+/*.view-id-quarterly_report_v2 #edit-field-date-range-value-wrapper,
+.view-id-quarterly_report_v2 #edit-field-date-published-value-wrapper,
+.view-id-quarterly_report_v2 #edit-timestamp-wrapper,
+.view-id-quarterly_report_v2 #edit-timestamp-1-wrapper,
+.view-id-quarterly_report_v2 #edit-timestamp-2-wrapper,
+.view-id-quarterly_report_v2 #edit-timestamp-3-wrapper,
+.view-id-quarterly_report_v2 #edit-field-date-published-value-1-wrapper,
+.view-id-quarterly_report_v2 #edit-field-date-published-value-2-wrapper*/
+{
+  display:none;
+}
+
+a#btn-select-quarter {
+  padding: 5px 20px;
+  border-radius: 6px;
+  background-color: #3294C4;
+  color: #fff;
+  margin-left: 20px;
+}
+
+#btn-select-quarter:hover{
+  text-decoration:none;
+  background-color: #015E88;
+}
+
+#pnl-select-quarter {
+  margin: 20px 20px 40px 20px;
+}
+
+#page-quarterly-activity #btn-select-quarter{
+  display: none;
+}
+
+#page-quarterly-activity .views-exposed-form, #page-quarterly-report .views-exposed-form{
+  display: none;
+}
+
+
+#pnl-report-loading{
+  display:none;
+}

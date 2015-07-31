@@ -1,0 +1,5 @@
+name = Dataset Quarter Filter
+description = Adds the ability to filter by quarters on Dataset reports.
+core = 7.x
+scripts[] = js/dataset_quarter_filter.js
+package = Ecogig
